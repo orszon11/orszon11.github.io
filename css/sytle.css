@@ -1,2 +1,15 @@
-h1{color:red;}
-    p{color: grey;font-size: 24px;}
+@font-face{font-family: "Roboto regular";
+src: url(/css/Roboto/Roboto-Regular.ttf);}
+
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(47, 241, 57);}
+
+p{color: rgb(55, 82, 236); 
+        font-size: 60px;
+    font-family: "Roboto regular";
+text-align:center;
+text-transform: uppercase;}
+
+ 
+    img{
+    height: 200px;margin: 20px;}
