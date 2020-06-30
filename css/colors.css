@@ -1,0 +1,10 @@
+#colorDiv{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(41, 41, 231, 0.3);
+}
+
+html{background-image: url(/img/sárga\ háttér.jpg);
+background-repeat: no-repeat;
+background-position: right;}

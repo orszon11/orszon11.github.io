@@ -4,12 +4,35 @@ src: url(/css/Roboto/Roboto-Regular.ttf);}
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(47, 241, 57);}
 
+#Bio-header{color: purple;}
+
+#Skills-header{color: red;}
+
+.content{color: rgb(243, 22, 59);
+margin:10px,20px, 30px;
+padding: 10px 0 0 0;
+border-top:dotted 3px rgb(247, 78, 17);}
+
+.bold{font-weight: bold;}
+
+.img-div{background-color: lightblue;  
+}
+
+img{margin: 1%;
+    width: 8%;
+    box-shadow: 3px 3px 12px rgb(32, 29, 13);}
+
+.light{padding: 10px;
+border: 5px;}
+
 p{color: rgb(55, 82, 236); 
-        font-size: 60px;
+        font-size: 20px;
     font-family: "Roboto regular";
 text-align:center;
 text-transform: uppercase;}
 
  
-    img{
-    height: 200px;margin: 20px;}
+ img{height: 200px;
+      margin: 20px;}
+
+#img-1{display: none;}

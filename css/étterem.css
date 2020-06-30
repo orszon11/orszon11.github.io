@@ -1,0 +1,53 @@
+@font-face{font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);}
+
+@font-face{font-family: "Lobster";src: url(/css/LOBSTER/Lobster-Regular.ttf);}
+
+html{color: rgb(99, 24, 24);
+    font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);
+border-style: solid;
+border-right-width:  100px;
+border-left-width:  100px;
+border-color: rgb(235, 235, 11);}
+
+h1{color: rgb(17, 230, 34);
+    text-align: center;
+    font-size: 60px;
+    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); }
+
+.táblázat{text-align: center;
+    border-spacing: 10px;
+    width:100%;
+border-collapse: separate;
+font: yellow;
+padding: 4px 2px;}
+
+.buborék{border-radius: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+   background-color: brown;
+text-align: center;
+margin: 50px;}
+
+h2{color: rgb(9, 180, 23);
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;}
+
+h4{margin-left: 40px; 
+   margin-bottom: 20px;} 
+        
+.dőlt{font-style: italic;
+      margin-left: 30px;}
+
+.vastag {font-weight: bold;}
+
+
+.img-div {margin: 20px;
+          text-align: center;
+          width:100%;}
+
+img{box-shadow: 6px 6px 5px grey;
+}
+
+
