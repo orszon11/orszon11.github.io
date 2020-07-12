@@ -9,18 +9,40 @@
 </head>
 
 <body>
-    <p><a href="/Étterem.html">Vissza a főoldalra</a></p>
-    <p><a href="/Napi akció.html">Napi akciónk</a></p>
-    
-    <h1>Étel és ital ajánlatunk</h1>
-<h2>Hamburgerek</h2>
+    <h1>Uhrin hamburgerező </h1>
+
+    <table id="táblázat">
+        <tbody>
+            <tr>
+                <div>
+                    <td>
+                        <a href="Étterem.html">
+                            <button class="menüsor">Elérhetőség</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="Étlap.html">
+                            <button class="menüsor"> Étlap</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="Napi akció.html">
+                            <button class="menüsor"> Akciók</button>
+                        </a>
+                    </td>
+                </div>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Étel és ital ajánlatunk</h3>
+
     <table>
         <thead>
             <tr>
-                <th></th>
-                <th>Hamburger neve</th>
-                <th>Hamburger tartalmazza</th>
-                <th>Ár</th>
+                <th colspan="4">
+                    <h2>Hamburgerek</h2>
+                </th>
             </tr>
         </thead>
 
@@ -75,14 +97,13 @@
 
         </tbody>
     </table>
-<h2>Szendvicsek</h2>
+
     <table>
         <thead>
             <tr>
-                <th></th>
-                <th>Szendvics neve</th>
-                <th>Szendvics tartalmazza</th>
-                <th>Ár</th>
+                <th colspan="4">
+                    <h2>Szendvicsek</h2>
+                </th>
             </tr>
         </thead>
 
@@ -120,53 +141,56 @@
             </tr>
         </tbody>
     </table>
-    <h2>Ital ajánlatunk</h2>
-    <table>
+
+    <table class="ital-táblázat">
         <thead>
             <tr>
-                <th colspan="2">Ital neve</th>
-                <th>Ár</th>
+                <div>
+                    <th colspan="3">
+                        <h2>Ital ajánlatunk</h2>
+                    </th>
+                </div>
             </tr>
         </thead>
 
         <tbody>
-            <tr><img width="100" src="/img/Ital/Cola.jpg" alt="">
-                <td></td>
-                <td>Coca-cola 250ml</td>
-                <td>300Ft</td>
-            </tr>
+            <div class="ital-body">
+                <tr>
+                    <td><img width="100" src="/img/Ital/Cola.jpg" alt=""></td>
+                    <td>Coca-cola 250ml</td>
+                    <td>300Ft</td>
+                </tr>
 
-            <tr>
-                <td><img width="100" src="/img/Ital/Fanta-250-ml.jpg" alt=""></td>
-                <td>Fanta 250ml</td>
-                <td>300Ft</td>
-            </tr>
+                <tr>
+                    <td><img width="100" src="/img/Ital/Fanta-250-ml.jpg" alt=""></td>
+                    <td>Fanta 250ml</td>
+                    <td>300Ft</td>
+                </tr>
 
-            <tr>
-                <td><img width="100" src="/img/Ital/sprite.jpg" alt=""></td>
-                <td>Sprite 250ml</td>
-                <td>300Ft</td>
-            </tr>
+                <tr>
+                    <td><img width="100" src="/img/Ital/sprite.jpg" alt=""></td>
+                    <td>Sprite 250ml</td>
+                    <td>300Ft</td>
+                </tr>
 
-            <tr>
-                <td><img width="60" src="/img/Ital/kinley.jpg" alt=""></td>
-                <td>Kinley 250ml</td>
-                <td>300Ft</td>
-            </tr>
+                <tr>
+                    <td><img width="60" src="/img/Ital/kinley.jpg" alt=""></td>
+                    <td>Kinley 250ml</td>
+                    <td>300Ft</td>
+                </tr>
 
-            <tr>
-                <td><img width="100" src="/img/Ital/Cappy.jpg" alt=""></td>
-                <td>Cappy multivitamin 250ml</td>
-                <td>300Ft</td>
-            </tr>
-
-            <tr>
-                <td><img width="100" src="/img/Ital/szentkirályi.jpg" alt=""></td>
-                <td>Szentkirályi ásványvíz 250ml
-
-                </td>
-                <td>200Ft</td>
-            </tr>
+                <tr>
+                    <td><img width="100" src="/img/Ital/Cappy.jpg" alt=""></td>
+                    <td>Cappy multivitamin 250ml</td>
+                    <td>300Ft</td>
+                </tr>
+                
+                <tr>
+                    <td><img width="100" src="/img/Ital/szentkirályi.jpg" alt=""></td>
+                    <td>Szentkirályi ásványvíz 250ml</td>
+                    <td>200Ft</td>
+                </tr>
+            </div>
         </tbody>
     </table>
 </body>

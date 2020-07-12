@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgerező</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Hanburgerező.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="Regisztráció.css">
+</head>
+
+<body>
+    <h1>Uhrin hamburgerező</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light fejléc" style="background-color:  rgb(199, 120, 55)" ;>
+        <a class="navbar-brand" href="Hamburgerező.html">Főoldal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Index</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="táblázat.html">Táblázat</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Regisztráció.html">Regisztráció</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="Bejelentkezés.html">Bejelentkezés</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <form action="/action_page.php">
+            <fieldset class="Személyesadat-egész">
+                <legend class="Személyesadat-felirat">Személyes adatok:</legend>
+
+                <div class="form-row" >
+                    <div class="col-md-5 mb-3">
+
+                        <label for="validationTooltip01">Vezetéknév:*</label>
+                        <input type="text" class="form-control" id="validationTooltip01" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <label for="validationTooltip02">Keresztnév:*</label>
+                        <input type="text" class="form-control" id="validationTooltip02" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form-row">
+                        <div class="col-md-5 mb-3">
+                            <label for="validationTooltip03">Település:*</label>
+                            <input type="text" class="form-control" id="validationTooltip03" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 mb-2">
+                            <label for="validationTooltip05">Irányítószám:*</label>
+                            <input type="text" class="form-control" id="validationTooltip05" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label for="validationTooltip03">Közterület:*</label>
+                            <input type="text" class="form-control" id="validationTooltip03" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 mb-1">
+                            <label for="validationTooltip03">Házszám:*</label>
+                            <input type="text" class="form-control" id="validationTooltip03" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="inputEmail4">E-mail cím:*</label>
+                            <input type="email" class="form-control" id="inputEmail4" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="inputPassword4">Jelszó:*</label>
+                            <input type="password" class="form-control" id="inputPassword4" required>
+
+                        </div>
+
+                        <div class="form-group col-md-5">
+                            <label for="inputPassword4">Jelszó megerősítés:*</label>
+                            <input type="password" class="form-control" id="inputPassword4" required>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <small id="passwordHelpBlock" class="form-text text-muted">
+                                Your password must be 8-20 characters long, contain letters and numbers, and must
+                                not contain spaces, special characters, or emoji.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row col-md-6">
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea name="comment" id="comment" rows="6"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Emlékezzél rám!
+                        </label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Küldés</button> 
+            </fieldset>
+        </form>
+    </div>
+   
+
+</body>
+
+</html>

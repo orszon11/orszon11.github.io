@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="css/űrlap.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/action_page.php"> 
+            <fieldset class="Személyesadat-egész">
+                <legend class="Személyesadat-felirat">Személyes adatok:</legend>
+
+
+                <div>
+                    <label for="fname">Vezetéknév:*</label>
+                    <input type="text" id="fname" name="fname" required><br><br>
+                </div>
+
+                <div>
+                    <label for="lname">Keresztnév:*</label>
+                    <input type="text" id="lname" name="lname" required><br><br>
+                </div>
+
+                <div>
+                    <label for="email">Email cím:*</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+
+                <div>
+                    <label for="address">Cím:*</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+
+                <div>
+                    <label for="birthday">Születési idő:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </div>
+
+                <div>
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea name="comment" id="comment" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Küldés">
+                </div>
+            </fieldset>
+
+
+
+            <Label>Hírlevél:</Label>
+            <input name="mail" type="checkbox" checked>
+            <p>Hírlevél gyakorisága:</p>
+
+            <input type="radio" name="freq" value="weekly" checked> Heti
+            <input type="radio" name="freq" value="monthly" checked> Havi
+
+            <fieldset>
+                <legend>Termék adatai:</legend>
+
+                <span>Extra feltét:</span>
+                <div>
+                    <input checked id="nothing" name="extra" type="checkbox" value="0">
+                    <label for="nothing">Nem kérek</label>
+                </div>
+
+                <div>
+                    <input id="sajt" name="sajt" type="checkbox" value="300">
+                    <label for="sajt">Sajt</label>
+                </div>
+
+                <div>
+                    <input id="dupla-sajt" name="dupla-sajt" type="checkbox" value="1000">
+                    <label for="dupla-sajt">Dupla sajt</label>
+                </div>
+
+                <div>
+                    <input id="dupla-hús" name="dupla-hús" type="checkbox" value="1600">
+                    <label for="dupla-hús">Dupla hús</label>
+                </div>
+
+                <div>
+                    <input id="paradicsom" name="paradicsom" type="checkbox" value="1800">
+                    <label for="paradicsom">Paradicsom</label>
+                </div>
+
+                <div>
+                    <input id="bacon" name="bacon" type="checkbox" value="2000">
+                    <label for="bacon">Bacon</label>
+                </div>
+
+                <div>
+                    <input id="kígyóuborka" name="kígyóuborka" type="checkbox" value="2300">
+                    <label for="kígyóuborka">Kígyóuborka</label>
+                </div>
+
+                <div>
+                    <input id="kukorica" name="kukorica" type="checkbox" value="2600">
+                    <label for="kukorica">Kukorica</label>
+                </div>
+
+                <div>
+                    <input id="gomba" name="gomba" type="checkbox" value="3000">
+                    <label for="gomba">Gomba</label>
+                </div>
+
+                <div>
+                    <label for="sauce">Szósz:</label>
+                    <select name="sauce" id="sauce">
+                        <option value="0" selected>Ketchup</option>
+                        <option value="100">Majonéz</option>
+                        <option value="200">Mustár</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">Mennyiség:</label>
+                    <input id="quantity" name="quantity" type="number" min="1" max="10">
+                </div>
+            </fieldset>
+
+
+            <div>
+                <input type="button" value="Rendelés leadása"> Ár <span>1200</span>Ft
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>

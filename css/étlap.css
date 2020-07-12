@@ -3,11 +3,43 @@
 @font-face{font-family: "Lobster";src: url(/css/LOBSTER/Lobster-Regular.ttf);}
 
 html{color: rgb(99, 24, 24);
-    font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);}
+    font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);
+border-style: solid;
+border-right-width:  100px;
+border-left-width:  100px;
+border-color: rgb(235, 235, 11);
+text-align: center;}
 
 h1{color: rgb(17, 230, 34);
-    text-align: center;
-    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); }
+    font-size: 60px;
+    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); 
+position: relative;}
+
+h3{color: rgb(9, 180, 23);
+    font-size: 40px;
+    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); 
+    }
+
+#táblázat{width:100%;}
+
+
+.menüsor{
+        border-spacing: 10px;
+        
+        border-collapse: separate;
+    padding: 4px 2px;
+        border-radius: 10px;
+        color: yellow;
+        font-weight: bolder;
+        font-size: 30px;
+        background-color: brown;
+        margin: 50px;
+    padding:10px;
+    }
 
 h2{color: rgb(9, 180, 23)
         ;}
+
+.ital-táblázat{color: springgreen;}
+
+.ital-body:nth-last-of-row(2n+1){background-color: sienna;}

@@ -7,20 +7,28 @@ html{color: rgb(99, 24, 24);
 border-style: solid;
 border-right-width:  100px;
 border-left-width:  100px;
-border-color: rgb(235, 235, 11);}
+border-color: rgb(235, 235, 11);
+text-align: center;}
 
 h1{color: rgb(17, 230, 34);
-    text-align: center;
     font-size: 60px;
     font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); 
-position: relative;}
+position: relative;
+text-align: center;}
 
+h3{color: rgb(9, 180, 23);
+    font-size: 40px;
+    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); 
+    text-align: center;
+   margin: 20px; }
 
+h2{color: rgb(9, 180, 23);
+text-align: center;}
 
 #táblázat{width:100%;}
 
+
 .menüsor{
-        text-align: center;
         border-spacing: 10px;
         
         border-collapse: separate;
@@ -34,30 +42,8 @@ position: relative;}
     padding:10px;
     }
 
-h2{color: rgb(9, 180, 23);
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 0px;}
-
-h4{margin-left: 40px; 
-   margin-bottom: 20px;} 
-        
-.dőlt{font-style: italic;
-      margin-left: 30px;}
-
-.vastag {font-weight: bold;}
-
-#kép{position: absolute; 
-    top: 300px; 
-    right: 200px;
-box-shadow: none;}
-
-.img-div {margin: 20px;
-          text-align: center;
-          width:100%; }
-
-img{box-shadow: 6px 6px 5px grey;}
 
 
+.ital-táblázat{color: springgreen;}
 
+.ital-body:nth-last-of-row(2n+1){background-color: sienna;}

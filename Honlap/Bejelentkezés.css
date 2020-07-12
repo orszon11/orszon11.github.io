@@ -1,0 +1,26 @@
+@font-face{font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);}
+
+@font-face{font-family: "Lobster";src: url(/css/LOBSTER/Lobster-Regular.ttf);}
+
+html{color: rgb(104, 26, 26);
+    font-family: "Roboto"; src: url(/css/Roboto/Roboto-Regular.ttf);
+border-style: solid;
+border-right-width:  100px;
+border-left-width:  100px;
+border-color: rgb(235, 235, 11);
+text-align: center;}
+
+
+h1{color: rgb(17, 230, 34);
+    font-size: 60px;
+    font-family: "Lobster";src: url(css\LOBSTER\Lobster-Regular.ttf); 
+position: relative;
+text-align: center; 
+margin: 30px;}
+
+.Személyesadat-egész{background-color: #eeeeee;
+    margin: 30px ;
+padding: 10px;
+text-align: center;}
+
+.keret{margin: 30px;}

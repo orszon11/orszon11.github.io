@@ -6,18 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uhrin hamburgerező</title>
     <link rel="stylesheet" href="/css/étterem.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
     <h1>Uhrin hamburgerező </h1>
 
-    <table class="táblázat">
-        <tr><div class="buborék">
-            <td><a href="Étterem.html">Elérhetőség</a></td>
-            <td> <a href="Napi akció.html">Akciók</a></td>
-            <td><a href="Étlap.html">Étlap</a></td>
-        </div></tr>
-        
+    <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <a href="Étterem.html">
+                <button class="menüsor">Elérhetőség</button>
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a href="Étlap.html">
+                <button class="menüsor"> Étlap</button>
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a href="Napi akció.html">
+                <button class="menüsor"> Akciók</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <table id="táblázat">
+        <tbody>
+            <tr>
+                <div>
+                    <td>
+                        <a href="Étterem.html">
+                            <button class="menüsor">Elérhetőség</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="Étlap.html">
+                            <button class="menüsor"> Étlap</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="Napi akció.html">
+                            <button class="menüsor"> Akciók</button>
+                        </a>
+                        </td>
+                </div>
+            </tr>
+        </tbody>
     </table>
 
     <h2><b>Elérhetőség</b> </h2>
@@ -33,6 +71,10 @@
         <li>Szombattól vasárnapig: 12-23 </li>
     </ul>
 
+    <div id="kép">
+        <img width="350" src="/img/big burger.png" alt="Hamburger">
+    </div>
+    
     <h2>Megközelíthetőség</h2>
     <h4>Csömöri Weekend busz végállomásától 5 perc séta</h4>
     <div class="img-div">
